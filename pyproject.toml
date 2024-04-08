@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "django-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["Luciano Borba <luhborbafilho@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+taskipy = "^1.12.2"
+black = "^24.3.0"
+isort = "^5.13.2"
+pydocstyle = "^6.3.0"
+pip-audit = "^2.7.2"
+streamlit = "^1.33.0"
+django = "^5.0.4"
+pre-commit = "^3.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
